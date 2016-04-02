@@ -1,0 +1,73 @@
+/* 320 - 768 - 960 */
+/* Nav */
+
+body {
+    text-align: left;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .firstWrapper {
+        margin: 0 auto;
+        width: 99%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .firstWrapper {
+        max-width: 62%;
+        margin: 0 auto;
+    }
+}
+
+#nav {
+    background-color: #282828;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+#nav ul {
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav a {
+    position: relative;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+}
+
+#nav a:hover {
+    color: #fff !important;
+}
+
+#nav a.active:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -0.6em;
+    left: 50%;
+    margin-left: -0.75em;
+    border-left: solid 0.75em transparent;
+    border-right: solid 0.75em transparent;
+    border-top: solid 0.6em #282828;
+}
+
+.firstWrapper {
+    position: relative;
+    top: 50px;
+}
+
+h2 {
+    text-align: center;
+}
