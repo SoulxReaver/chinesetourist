@@ -20,6 +20,8 @@ body {
         max-width: 62%;
         margin: 0 auto;
     }
+
+
 }
 
 #nav {
@@ -68,6 +70,16 @@ body {
     top: 50px;
 }
 
-h2 {
+h2, h3 {
     text-align: center;
+}
+
+ol {
+    padding: 5px;
+    margin: 0px 1px;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
