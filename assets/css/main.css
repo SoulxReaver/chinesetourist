@@ -7,7 +7,22 @@ body {
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+.firstWrapper {
+    position: relative;
+    top: 50px;
+}
+
+@media screen and (max-width: 550px) {
+    .firstWrapper {
+        position: relative;
+        top: 150px;
+    }
+
+    #nav a {
+        padding: 0.5em;
+    }
+}
+@media screen and (min-width: 551px ) and (max-width: 768px) {
     .firstWrapper {
         margin: 0 auto;
         width: 99%;
@@ -15,6 +30,10 @@ body {
 
     #nav a {
         padding: 0.5em;
+    }
+    table
+    {
+        margin: 0 auto;
     }
 }
 
@@ -45,6 +64,10 @@ body {
         background: #484848;
     }
 
+    table
+    {
+        margin: 0 auto;
+    }
 
 }
 
@@ -89,10 +112,7 @@ body {
     border-top: solid 0.6em #282828;
 }
 
-.firstWrapper {
-    position: relative;
-    top: 50px;
-}
+
 
 h2, h3 {
     text-align: center;
@@ -110,4 +130,8 @@ img {
 
 #nav ol, ul {
     list-style: none;
+}
+
+tr {
+    vertical-align: top;
 }
