@@ -5,13 +5,16 @@ body {
     text-align: left;
     vertical-align: middle;
     width: 100%;
+    font-size: 100%;
 }
 
 .firstWrapper {
     position: relative;
-    top: 50px;
 }
 
+#nav_spacer {
+    height: 50px;
+}
 @media screen and (max-width: 550px) {
     .firstWrapper {
         position: relative;
