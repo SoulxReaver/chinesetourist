@@ -18,8 +18,8 @@ body {
 }
 
 @media screen and (max-width: 550px) {
-    p {
-        font-size: 110%;
+    p, h3 {
+        font-size: 120%;
     }
 
     #nav a {
@@ -36,8 +36,8 @@ body {
         padding: 0.5em;
     }
 
-    p {
-        font-size: 110%;
+    p, h3 {
+        font-size: 120%;
     }
 
     table
